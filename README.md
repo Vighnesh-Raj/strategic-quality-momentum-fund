@@ -40,7 +40,7 @@ The goal is to deliver superior risk-adjusted returns through a disciplined, rul
 | Model       | Alpha (monthly) | Market Beta | SMB (Size) | HML (Value) | Interpretation                          |
 |-------------|------------------|-------------|------------|-------------|------------------------------------------|
 | CAPM        | 0.27%            | 0.80        | —          | —           | Positive alpha, moderate market exposure |
-| Fama-French 3-Factor | 0.27% **     | 0.84        | -0.27      | -0.09       | Large-cap growth tilt, consistent alpha  |
+| Fama-French 3-Factor | 0.27%   | 0.84        | -0.27      | -0.09       | Large-cap growth tilt, consistent alpha  |
 
 - **Alpha**: Statistically significant at the 5% level in both models
 - **Market Beta**: Less than 1, indicating lower sensitivity to market movements
