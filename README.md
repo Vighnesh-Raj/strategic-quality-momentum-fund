@@ -14,9 +14,9 @@ The goal is to deliver superior risk-adjusted returns through a disciplined, rul
 
 1. **Universe Screening**: Top 1,000 U.S. stocks by market cap and dollar volume, price > $5  
 2. **Factor Rankings**:
-   - Volatility: Ascending (lower is better)
-   - Momentum (R11): Descending (higher is better)
-   - Profitability (ROE): Descending (higher is better)
+   - Volatility: Ascending
+   - Momentum (R11): Descending
+   - Profitability (ROE): Descending
 3. **Score & Selection**: Average rank across 3 signals; select top 100 stocks  
 4. **Weighting**: Value-weighted by market cap  
 5. **Rebalancing**: Quarterly  
@@ -39,7 +39,7 @@ The goal is to deliver superior risk-adjusted returns through a disciplined, rul
 
 | Model       | Alpha (monthly) | Market Beta | SMB (Size) | HML (Value) | Interpretation                          |
 |-------------|------------------|-------------|------------|-------------|------------------------------------------|
-| CAPM        | 0.27% **         | 0.80        | —          | —           | Positive alpha, moderate market exposure |
+| CAPM        | 0.27%            | 0.80        | —          | —           | Positive alpha, moderate market exposure |
 | Fama-French 3-Factor | 0.27% **     | 0.84        | -0.27      | -0.09       | Large-cap growth tilt, consistent alpha  |
 
 - **Alpha**: Statistically significant at the 5% level in both models
